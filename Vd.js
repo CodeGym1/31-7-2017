@@ -12,14 +12,17 @@
     var b=document.getElementById("circle");
     var ctx=b.getContext("2d");
     ctx.beginPath();
-    ctx.arc(90,50,40,0,2*Math.PI);
+    ctx.arc(90,50,40,0,2*   Math.PI);
     ctx.stroke();
+
+
 
     // vẽ 1 text
     var a=document.getElementById("text");
-    var ctx=a.getContext("2d");
+    var ctx =a.getContext("2d");
     ctx.font="30px Arial ";
-    ctx.fillText("Hello Baby",10,50);
+    ctx.fillText("Hello World",10,50);
+
 
     //Draw Linear Gradient
     var d=document.getElementById("Linear");
@@ -44,8 +47,8 @@ ctx.fillStyle = grd;
 ctx.fillRect(10,10,150,80);
 
 function vehinh() {
-    var c = document.getElementById("hinhs");
-    var ctx = c.getContext("2d");
+    var h = document.getElementById("hinhs");
+    var ctx = h.getContext("2d");
     var img = document.getElementById("hinhbd");
-    ctx.drawImage(img,10,10);
+    ctx. drawImage(img,10,10);
 }
